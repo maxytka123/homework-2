@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Катышев Максим">
+    <meta name="keywords" content="Магазинчик доты 2 , Габен , плюшевые герои">
+</head>
+
+<body>
+<p class="name">Магазин доты 2</p>
+    <div class="header">
+        <ul class="header-list">
+            <a class="header-menu" href="#">Купить</a>
+            <a class="header-menu" href="#">Купить</a>
+            <a class="header-menu" href="#">Купить</a>
+            <a class="header-menu" href="#">Купить</a>
+            <a class="header-menu" href="#">Купить</a>
+        </ul>
+    </div>
+    <div class="main-price">
+        <p class="price">Пудж хускар Веник фурион</p>
+    </div>
+    <section>
+        <ul class="main-content">
+            <img class="img-dota2" src="./content/pudge.png" alt="Пуджик">
+            <img class="img-dota2" src="./content/huskar.png" alt="Хускар">
+            <img class="img-dota2" src="./content/venomancer.png" alt="Вениамин">
+            <img class="img-dota2" src="./content/furion.png" alt="Вениамин">
+        </ul>
+    </section>
+    <div class="container">
+        <div class="plush-container">
+            <ul class="plush-heroes">
+                <img class="img-dota2" src="./content/plush pudge.jpg" alt="Пуджик">
+                <img class="img-dota2" src="./content/plush-huskar.jpg" alt="Хускар">
+                <img class="img-dota2" src="./content/plush venomancer.jpg" alt="Вениамин">
+                <ul class="plush-price">
+                    <li><p>Плюшевый Пудж 300$</p></li>
+                    <li><p>Плюшевый хускар 325$</p></li>
+                    <li><p>Плюшевый Вениамин 500$</p></li>
+                </ul>
+            </ul>
+        </div>
+        <div class="video-container">
+            <p class="promo">Наше промо Видео: убавьте звук:D</p>
+            <video class="product-video" controls src="content/legenda.mp4"></video>
+        </div>
+    </div>
+    <div class="main-form">
+    <form class="form" method="get">
+        <p style="font-size: 20px;">Регистрация:</p>
+        <p>
+          <label for="name">Введите имя:</label>
+          <input type="text" name="name" id="name" required>
+        </p>
+        <p>
+          <label for="email">Введите email:</label>
+          <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            <label for="email">Введите Номер карты:</label>
+            <input type="password" name="bank-card" id="bank-card" required>
+        </p>
+        <p>
+            <label for="email">Введите Ваш Аддрес:</label>
+            <input type="search" name="addres" id="addres" required>
+        </p>
+      </form>
+            <button  class="submit">Отправить</button>
+      <form class="form-buy"  method="post">
+        <fieldset>
+          <legend>Выберете Игрушку</legend>
+          <label><input type="radio" name="level"> Pudge</label>
+          <label><input type="radio" name="level"> huskar</label>
+          <label><input type="radio" name="level"> Venomancer</label>
+        </fieldset>
+      </form>
+      <button class="button" type="submit">Купить</button>
+    </div>
+      <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-menu">
+                <div class="footer-menu-item">
+                    <h4 class="footer-menu-title">Сервисы</h4>
+                    <ul class="footer-menu-list">
+                        <a href="#" class="footer-menu-link">Html.book</a>
+                        <a href="#" class="footer-menu-link">doka.guide</a>
+                        <a href="#" class="footer-menu-link">flex-frogs</a>
+                    </ul>
+                </div>
+                <div class="footer-menu-item">
+                    <h4 class="footer-menu-title">Помощь и советы</h4>
+                    <ul class="footer-menu-list">
+                        <a href="#" class="footer-menu-link">Как не надо работать с боксами</a>
+                        <a href="#" class="footer-menu-link">Как Грамотно подбирать цвета</a>
+                        <a href="#" class="footer-menu-link">Где искать хорошие Картинки</a>
+                    </ul>
+                </div>
+                <div class="footer-menu-item">
+                    <h4 class="footer-menu-title">Компании</h4>
+                    <ul class="footer-menu-list">
+                        <a href="#" class="footer-menu-link">css for teamkov</a>
+                        <a href="#" class="footer-menu-link">html academy</a>
+                        <a href="#" class="footer-menu-link">mdn web docs</a>
+                    </ul>
+                </div>
+                <hr>
+                <div class="footer-menu-item">
+                    <h4 class="footer-menu-title">Сервисы </h4>
+                    <p class="footer-menu-subtitle">Напишите уже нам на Мыло!</p>
+                    <h3 class="footer-menu-email">@example.com</h3>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="footer-logo">
+
+                </div>
+                <div class="footer-copyright-text">
+                    <p>(c) Магазинчик Доты 2 Все  права Защищены</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
